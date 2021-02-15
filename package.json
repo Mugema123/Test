@@ -1,0 +1,45 @@
+{
+  "name": "mugema-dev",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/js",
+    "start": "nodemon   ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogeniuspriority/mugema-dev.git"
+  },
+  "author": "Mugema",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogeniuspriority/mugema-dev/issues"
+  },
+  "homepage": "https://github.com/ogeniuspriority/mugema-dev#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/register": "^7.12.13",
+    "@babel/runtime": "^7.12.13",
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "eslint": "^7.19.0"
+  }
+}
